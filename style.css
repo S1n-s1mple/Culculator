@@ -18,8 +18,49 @@ body{
     justify-content: center;
 }
 
+.calculator{
+    background: #3d496c;
+    padding: 20px;
+    border-radius: 10px;
+}
 
+.calculator form input{
+    border: 0;
+    outline: 0;
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    box-shadow: -4px -4px 15px
+    rgba(0, 0, 0, 0.3), -2px -2px 15px rgba(0, 0, 0, 0.6);
+    background: transparent;
+    margin: 10px;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+}
 
+form .display{
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0;
+
+}
+
+form .display input{
+    text-align: right;
+    text-overflow: ellipsis;
+    padding: 6px 6px;
+    white-space: nowrap;
+    flex: 1;
+    font-size: 45px;
+    background: rgba(255, 255, 255, 0.4);
+    box-shadow: -4px -4px 15px rgba(0, 0, 0, 0.3), -2px -2px 15px rgba(0, 0, 0, 0.6);
+}
+
+form input.equal{
+    margin-left: 10px;
+    width: 43%;
+}
 
 
 
